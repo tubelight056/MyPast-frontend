@@ -1,0 +1,42 @@
+.EnteriesOuterbox {
+  padding: 20px;
+  font-family: var(--ft-primary);
+  color: var(--bg-secondary);
+  max-width: 80%;
+  margin: 20px 0px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
+
+.EnteriesOuterbox h4 {
+  color: var(--bg-highlighter);
+  font-family: var(--ft-secondary);
+}
+
+.tagmarker {
+  color: var(--bg-tag);
+  cursor: pointer;
+}
+
+.EnteriesOuterbox ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.personmarker {
+  color: var(--bg-person);
+  cursor: pointer;
+}
+
+.EnteriesOuterbox li {
+  margin: 5px;
+}
+
+.dot {
+  color: var(--bg-highlighter);
+  font-size: 24px;
+  margin: 0px 20px;
+}
+.dot:hover {
+  color: var(--bg-secondary);
+  cursor: pointer;
+}

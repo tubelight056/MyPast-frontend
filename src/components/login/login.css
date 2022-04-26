@@ -1,0 +1,115 @@
+.outerboxl {
+  position: fixed;
+  min-width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--bg-primary);
+  padding: 3%;
+  border-radius: 1.5rem;
+}
+
+button::placeholder {
+  font-family: var(--ft-primary);
+}
+
+.innerboxl .titlel {
+  font-family: var(--ft-primary);
+  color: var(--bg-secondary);
+  margin-top: 10px;
+}
+
+.highlighter {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--bg-highlighter);
+}
+
+.containerl {
+  margin: 10px 0px;
+}
+.containerl {
+  border-radius: 8px;
+  border-style: solid;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  font-family: var(--ft-primary);
+}
+.containerl input {
+  border-radius: 8px;
+  padding: 1rem;
+  border-width: 1px;
+  background-color: #ffffff;
+  min-width: 300px;
+  border-color: transparent;
+  outline-width: 0px;
+  outline-style: none;
+  outline: none;
+}
+.container input:focus {
+  background-color: #ffffff;
+  border-color: transparent;
+  outline-width: 0px;
+  outline-style: none;
+  outline: none;
+}
+.containerl input::placeholder {
+  color: var(--bg-primary);
+  font-family: var(--ft-primary);
+}
+
+.btnl {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--bg-secondary);
+  background-color: var(--bg-highlighter);
+  min-width: 100%;
+  padding: 1rem;
+  color: white;
+  font-family: var(--ft-primary);
+}
+
+.separator {
+  width: 100%;
+  text-align: center;
+  border-style: solid;
+  border-color: var(--bg-secondary);
+  border-width: 1px;
+  border-top-color: var(--bg-primary);
+  line-height: 0.001em;
+  margin: 10px 0 20px;
+}
+
+.separator span {
+  background-color: var(--bg-primary);
+  padding: 0 10px;
+  color: var(--bg-secondary);
+  border: transparent;
+}
+
+.btnl:hover {
+  border-color: var(--bg-secondary);
+}
+
+.loginbtnl {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: var(--bg-primary);
+  min-width: 100%;
+  padding: 1rem;
+  color: white;
+  font-family: var(--ft-primary);
+}
+
+.loginbtnl:hover {
+  background-color: var(--bg-highlighter);
+}
+
+.containerl p {
+  font-family: var(--ft-primary);
+  color: crimson;
+  text-align: center;
+  font-weight: bolder;
+}

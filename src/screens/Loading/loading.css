@@ -1,0 +1,32 @@
+.dotloading {
+  font-size: 24px;
+  color: var(--bg-secondary);
+  cursor: pointer;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  animation: loading 2s ease-in alternate infinite;
+}
+.loadingscreen {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 10;
+}
+@keyframes loading {
+  0% {
+    left: 20%;
+  }
+  50% {
+    font-size: 200px;
+    left: 50%;
+  }
+
+  100% {
+    left: 80%;
+    font-size: 24px;
+  }
+}

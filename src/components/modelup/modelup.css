@@ -1,0 +1,62 @@
+.modelupcontainer {
+  position: fixed;
+  font-family: var(--ft-primary);
+  color: var(--bg-secondary);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+  background-color: var(--bg-highlighter);
+}
+
+.modelupinnercontainer {
+  margin: 10%;
+  display: grid;
+  max-width: 80%;
+  grid-gap: 10%;
+}
+
+.modelupinnercontainer h1 {
+  max-width: 100%;
+}
+.modelupinnercontainer input {
+  font-family: var(--ft-primary);
+  padding: 20px;
+  border-radius: 7px;
+  border-color: transparent;
+  font-size: clamp(1.375rem, calc(12px + 1.1vw), 1.65rem);
+  line-height: 1.1;
+  outline-width: 0px;
+}
+
+.btncontainer {
+  justify-content: space-between;
+  display: flex;
+}
+
+.btncontainer button {
+  padding: 5px 25px;
+  border-radius: 7px;
+  font-family: var(--ft-primary);
+  font-size: clamp(1.375rem, calc(12px + 1.1vw), 1.65rem);
+  line-height: 1.1;
+  border-color: transparent;
+}
+
+.btncontainer button:hover {
+  cursor: pointer;
+}
+
+.suggestiondiv {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.suggestionwords {
+  display: inline;
+  margin: 0px 10px;
+  cursor: pointer;
+}
